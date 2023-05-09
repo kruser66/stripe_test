@@ -46,8 +46,8 @@ def api_buy(request, pk):
             'quantity': 1,
         }],
         mode='payment',
-        success_url='http://127.0.0.1:8000/success',
-        cancel_url='http://127.0.0.1:8000/cancel',
+        success_url=f'http://{settings.PAYMENT_REDIRECT}/success',
+        cancel_url=f'http://{settings.PAYMENT_REDIRECT}/cancel',
     )
 
     return redirect(session.url, code=303)
