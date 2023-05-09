@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buy {{item.name}}</title>
+  </head>
+  <body>
+    <h1>Наименование товара: {{item.name}}</h1>
+    <p>Описание товара: {{item.description}}</p>
+    <p>Цена: {{item.price}}</p>
+    <form action="{% url 'buy' item.id %}" method="GET">
+      <button id="buy-button">Buy</button>
+    </form>
+  </body>
+</html>
