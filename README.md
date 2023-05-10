@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ```bash
 SECRET_KEY=YOUR_SECRET_KEY
-ALLOWED_HOSTS=YOUR_HOST_NAME
+ALLOWED_HOSTS=your_host_name_example.com
 STRIPE_API_KEY=YOUR_STRIPE_API_KEY
 ```
 
@@ -44,6 +44,8 @@ python manage.py runserver
 
 ## Цели проекта
 
-Тестовое задание на должность Python Developer (Junior)
+Выполнение тестового задание на должность Python Developer (Junior)
 
-Тестовый сайт можно посмотреть [на pythonanywhere](kruser.pythonanywhere.com)
+Тестовый сайт можно посмотреть [на pythonanywhere](https://kruser.pythonanywhere.com/)
+
+Для оплаты используйте карту 4242 4242 4242 4242
